@@ -1,0 +1,107 @@
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_settings.scss';
+@import 'base/_base.scss'; 
+
+ 
+*{margin:0; padding:0;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'); 
+body {background:#fff;    font-family: 'Roboto', sans-serif !important;   line-height: 26px;} 
+html.home{background: url(../images/banner.jpg) no-repeat center center fixed;   -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;  }
+.home body{ background:none}
+h1,h2,h3,h4,h5,h6 { text-transform:capitalize;  color: #272727; margin:0 0 8px; padding:0;   }h1{ font-size:24px;}h2{ font-size:22px; margin-top:10px; padding-bottom:8px; color:#044088}h3{ font-size:16px; color:#333;   text-transform:capitalize; font-weight:600; margin-top:5px;}h4{ font-size:14px;}@-webkit-keyframes fadeInUp {0% {opacity: 0; -webkit-transform: translateY(20px);transform: translateY(20px);}100% {opacity: 1;-webkit-transform: translateY(0); transform: translateY(0); }}@keyframes fadeInUp {0% { opacity: 0;-webkit-transform: translateY(20px); -ms-transform: translateY(20px);transform: translateY(20px);}100% {opacity: 1;-webkit-transform: translateY(0);-ms-transform: translateY(0);transform: translateY(0);}}
+@-webkit-keyframes fadeInDown {0% {opacity: 0; -webkit-transform: translateY(0);transform: translateY(0);}100% {opacity: 1;-webkit-transform: translateY(20px); transform: translateY(20px); }}@keyframes fadeInDown {0% { opacity: 0;-webkit-transform: translateY(0); -ms-transform: translateY(0);transform: translateY(0);}100% {opacity: 1;-webkit-transform: translateY(20px);-ms-transform: translateY(20px);transform: translateY(20px);}} 
+.f17{ font-size:17px;}
+.form-control[readonly]{ background-color:#fff;}
+a:hover, .a:focus{ outline:none;} 
+.white {    color: #fff!important}
+.banner2 h3, .banner_hing{ text-align:center; font-size:34px !important; color:#fff; font-weight: normal;}
+.banner2  p{ text-shadow:2px 2px 2px rgba(0, 0, 0, 0.3); }
+
+
+.login_panels{ background-color:rgba(0,0,0,0.4);  width:90% !important;  border-radius:3px;
+	margin:20% 0 0 0%; padding:20px 30px 50px 30px; text-align:center; float:left;   position:relative; 	}
+ 
+.login_or_ver{ width:100% !important; margin:3px 0 0 0% !important;}
+ 
+.place_type, .place_type2{ position:relative;}
+.close_icon_wrap{ cursor:pointer; width:17px;height:15px;  right:5px;  top:14px; z-index:50; position:absolute; display:inline-block; vertical-align:middle; text-align:center;} 
+.close_icon_wrap:hover{ background-color:#f5f5f5;}
+.place_type .fa-close{opacity:0.3;width:17px;height:18px;display:block; vertical-align:middle; }
+.place_type .form-control{ padding:6px 12px 6px 25px; background-color:#fff;}
+.place_type .map-marker{ opacity:1; position:absolute; background-position:-35px -76px !important; width:20px; height:25px; top:9px; left:3px; }
+.place_type2 .form-control{ padding:6px 12px 6px 30px; height:45px;}
+.place_type2 .fa{ opacity:1; position:absolute;   width:25px; height:25px; top:15px; left:5px; }
+ 
+.modify_seach_btn{ background-color:#E83C44 !important; border-color:#E83C44 !important;} 
+.login_signup{ background-color:rgba(0,0,0,0.4); position:absolute; left:0; right:0; bottom:0; line-height:40px;   padding:10px 30px;	}
+   
+table{ border:1px #ccc solid !important;}
+
+.btn.btn-success {	background-color: #3f51b5;	font-size: 16px; height:45px;	border: #3f51b5; color:#fff;}
+.btn.btn-success:hover, .btn.btn-success:focus {	background-color: #407de6 ;	border: #407de6 ;	outline: none;	transition: all .5s ease 0}
+
+.btn.btn-info, .ui-datepicker-trigger {	background-color: #1A4593;	font-size: 14px;	border: #1A4593;	border-radius: 2px; padding:10px 15px}
+
+.btn.btn-info, .ui-datepicker-trigger {	background-color: #1A4593;	font-size: 14px;	border: #1A4593;	border-radius: 2px; }
+.btn.btn-info:hover, .btn.btn-info:focus, .ui-datepicker-trigger:focus, .ui-datepicker-trigger:hover {	background-color: #E83C44;	border: #E83C44;	outline: none;	transition: all .5s ease 0}  
+
+
+
+
+.modal.fade.visible, {
+    display: block;
+    opacity: 1 !important;
+    transition: all 0.5s ease;
+} 
+
+.modal .modal-dialog {
+    width: 600px;
+    z-index: 100000;
+}
+
+.modal .modal-content {
+    border-radius: 0 !important;
+    padding: 20px 20px 40px;
+    float: left;
+    width: 100%;
+ 
+    position: relative;
+    background-color: #fff;    
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+
+.modal .modal-header {
+    border: none;
+
+}
+.modal .modal-header  h3{
+color: #075bb5;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.modal .form-control {
+    border-radius: 0;
+    height: 40px;
+    border-color: #cbcbcb;
+}
+
+.model_close{
+    font-size: 32px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #333;
+    
+} 
+
+.model_close:hover{ color:#000; text-decoration:none;}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+.short_booking .btn-info{ padding:6px 7px;}
+
+}

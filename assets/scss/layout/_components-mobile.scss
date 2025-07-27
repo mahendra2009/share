@@ -1,0 +1,24 @@
+.hidden-xs { display:none;}
+.breadcrumb {display:none;}
+ 
+ .nav.navbar-top-links.navbar-right{ float:right;}
+	.sidebar .sidebar-nav.navbar-collapse{ width:100%; }
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{ background:none}
+	.navbar-default .navbar-toggle .icon-bar{ background: #333;}
+	.sidebar  ul  li{ background:#fff; border-bottom: 1px #eee dashed;   }	
+	.sidebar  ul  li a{ color: #2b3541}
+	.sidebar  ul  li.divider{ display: none;}
+	.sidebar ul li a:hover, .sidebar ul li a.active:hover{ background-color:#3f51b5}
+	.radio.radio-inline{ margin-left: 0;}
+.dataTables_wrapper {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd; font-size: 12px;
+}
+table.dataTable thead th, table.dataTable thead td{ font-size: 12px; padding: 10px 11px !important;}
+.dataTables_wrapper {
+    min-height: .01%;
+    overflow-x: auto;
+}

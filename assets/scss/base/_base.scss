@@ -1,0 +1,13 @@
+@import "vendors/_bootstrap.scss";
+@import "vendors/_font-awesome.scss";
+//@import "vendors/_animate.scss";
+
+
+@include animate-keyframe('bouncedelay') {  0%, 80%, 100% { -webkit-transform: scale(0) }  40% { -webkit-transform: scale(1.0) }}
+
+@include animate-keyframe('sk-bounce')  {  0%, 100% {     transform: scale(0.0);    -webkit-transform: scale(0.0);  } 50% {     transform: scale(1.0);    -webkit-transform: scale(1.0);  }}
+
+@include animate-keyframe('Gradient')  {0% {background-position: 0% 50%    }50% {background-position: 100% 50%    }    100% {     background-position: 0% 50%    }
+}
+ 
+ .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}

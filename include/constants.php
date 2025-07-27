@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://server/share/');
+define('BASE_URL', 'http://localhost/share/');
 // set time-out period (in seconds)
 /*$inactive = 2000; 
 // check to see if $_SESSION["timeout"] is set
